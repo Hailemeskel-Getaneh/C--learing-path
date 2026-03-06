@@ -1,0 +1,15 @@
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\bin\Debug\net10.0\MiniCalculator.exe
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\bin\Debug\net10.0\MiniCalculator.deps.json
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\bin\Debug\net10.0\MiniCalculator.runtimeconfig.json
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\bin\Debug\net10.0\MiniCalculator.dll
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\bin\Debug\net10.0\MiniCalculator.pdb
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\MiniCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\MiniCalculator.AssemblyInfoInputs.cache
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\MiniCalculator.AssemblyInfo.cs
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\MiniCalculator.csproj.CoreCompileInputs.cache
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\MiniCalculator.sourcelink.json
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\MiniCalculator.dll
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\refint\MiniCalculator.dll
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\MiniCalculator.pdb
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\MiniCalculator.genruntimeconfig.cache
+D:\Haile\c-sharp-learning-path\01-CSharp-Basics\Projects\MiniCalculator\obj\Debug\net10.0\ref\MiniCalculator.dll

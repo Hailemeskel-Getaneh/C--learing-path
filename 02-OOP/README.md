@@ -6,10 +6,10 @@ OOP is where C# development really starts to click. Instead of writing a long li
 
 Notes are in the `Notes/` folder:
 
-- 01-Classes.md
-- 02-Encapsulation.md
-- 03-Inheritance.md
-- 04-Abstraction.md
+- [01-Classes.md](./Notes/01-Classes.md)
+- [02-Encapsulation.md](./Notes/02-Encapsulation.md)
+- [03-Inheritance.md](./Notes/03-Inheritance.md)
+- [04-Abstraction.md](./Notes/04-Abstraction.md)
 
 The practice project is in `Projects/BankingSystem/` — a simple bank account sim that demonstrates all four OOP pillars.
 

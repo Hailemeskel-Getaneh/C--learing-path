@@ -1,28 +1,41 @@
-# Unit 09 — Real-World Projects
+# Unit 09 — Database-First Architecture Skeleton
 
-This is the capstone section. The projects here aren't exercises — they're complete applications built from scratch to solve a real problem. The goal is to end up with something I can actually show and explain.
+This folder contains a conceptual skeleton of how to structure a large-scale Enterprise project using the concepts you've learned.
 
-## Projects
+## Project Structure (The "Clean" Way)
 
-### Beginner
-Simple CLI apps that focus on logic and fundamentals.
-- Todo list (CLI)
-- Basic grade calculator
+If you were to open this in Visual Studio, it should be divided into 4 projects (folders):
 
-### Intermediate
-Projects with OOP, data persistence, and multiple classes working together.
-- Banking system with account types and transaction history
-- Inventory management with file-based storage
+### 📁 1. MyApp.Domain (POCO Classes)
+- **Purpose:** Pure C# classes (Entities). No dependencies.
+- **Example:** `User.cs`, `Product.cs`.
 
-### Advanced
-Full applications with web APIs, databases, and real architecture.
-- Task Manager REST API (ASP.NET Core + EF Core + SQLite)
-- Bookstore API with search and user auth
+### 📁 2. MyApp.Data (Persistence Layer)
+- **Purpose:** Where the database "lives."
+- **Contains:** `AppDbContext`, `Repositories/`, `UnitOfWork.cs`.
 
-## How I approach these
+### 📁 3. MyApp.Services (Business Logic)
+- **Purpose:** Where the choices are made.
+- **Contains:** `IOrderService`, `CalculationEngine.cs`.
 
-I try to build the project from scratch before looking anything up. Then I refine.
+### 📁 4. MyApp.API (Web API)
+- **Purpose:** The entry point (Controllers).
+- **Contains:** `Controllers/`, `Program.cs`, `appsettings.json`.
 
-The point isn't to produce perfect code — it's to understand what I don't know yet. Running into a problem and having to figure it out is where the actual learning happens.
+---
 
-Each project has its own README with instructions for running it.
+## 🚀 Practical Challenge
+Try to build a small **Ticketing System**:
+1. Create a `Ticket` entity (Id, Title, Description, Status).
+2. Create a `TicketRepository`.
+3. Create a `UnitOfWork` that manages the TicketRepository.
+4. Create an API Controller that uses the UnitOfWork to add a ticket.
+
+**Checklist for Review:**
+- [ ] Is it Async?
+- [ ] Does it use IQueryable for searches?
+- [ ] Is the DbContext injected via DI?
+- [ ] Are the C# strengths (Interfaces/Generics) implemented?
+
+---
+*Next Step: Once you've attempted this, show the code to your manager or mentor for architectural review.*

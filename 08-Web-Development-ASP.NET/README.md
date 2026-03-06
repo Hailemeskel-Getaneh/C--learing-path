@@ -7,6 +7,7 @@ This is the section where everything comes together and C# gets applied to the w
 - 01-WebAPI.md — Controllers, routing, HTTP verbs
 - 02-EFCore.md — Entity Framework Core for database access
 - 03-Auth.md — Authentication, middleware, and the request pipeline
+- 04-Repository-Pattern.md — Repository and Unit of Work patterns
 
 ## ASP.NET Core basics
 

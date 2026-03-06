@@ -3,6 +3,10 @@
 // Mini Calculator — Practice project for C# Basics
 // Covers: variables, methods, conditions, loops, user input
 
+// FACADE
+//class design
+
+
 class Program
 {
     static void Main(string[] args)
