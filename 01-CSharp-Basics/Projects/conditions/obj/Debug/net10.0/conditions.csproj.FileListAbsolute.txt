@@ -1,0 +1,15 @@
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\conditions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\conditions.AssemblyInfoInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\conditions.AssemblyInfo.cs
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\conditions.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\conditions.sourcelink.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\bin\Debug\net10.0\conditions.exe
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\bin\Debug\net10.0\conditions.deps.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\bin\Debug\net10.0\conditions.runtimeconfig.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\bin\Debug\net10.0\conditions.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\bin\Debug\net10.0\conditions.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\conditions.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\refint\conditions.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\conditions.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\conditions.genruntimeconfig.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\conditions\obj\Debug\net10.0\ref\conditions.dll
