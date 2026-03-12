@@ -1,0 +1,15 @@
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\strings.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\strings.AssemblyInfoInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\strings.AssemblyInfo.cs
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\strings.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\strings.sourcelink.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\bin\Debug\net10.0\strings.exe
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\bin\Debug\net10.0\strings.deps.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\bin\Debug\net10.0\strings.runtimeconfig.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\bin\Debug\net10.0\strings.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\bin\Debug\net10.0\strings.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\strings.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\refint\strings.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\strings.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\strings.genruntimeconfig.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\strings\obj\Debug\net10.0\ref\strings.dll
