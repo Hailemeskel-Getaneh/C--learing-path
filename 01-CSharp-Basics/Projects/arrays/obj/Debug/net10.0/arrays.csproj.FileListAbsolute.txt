@@ -1,0 +1,15 @@
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\arrays.AssemblyInfoInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\arrays.AssemblyInfo.cs
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\arrays.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\arrays.sourcelink.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\bin\Debug\net10.0\arrays.exe
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\bin\Debug\net10.0\arrays.deps.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\bin\Debug\net10.0\arrays.runtimeconfig.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\bin\Debug\net10.0\arrays.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\bin\Debug\net10.0\arrays.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\arrays.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\refint\arrays.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\arrays.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\arrays.genruntimeconfig.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\arrays\obj\Debug\net10.0\ref\arrays.dll
