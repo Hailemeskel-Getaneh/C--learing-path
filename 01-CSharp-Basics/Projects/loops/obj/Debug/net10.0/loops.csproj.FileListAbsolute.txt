@@ -1,0 +1,15 @@
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\bin\Debug\net10.0\loops.exe
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\bin\Debug\net10.0\loops.deps.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\bin\Debug\net10.0\loops.runtimeconfig.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\bin\Debug\net10.0\loops.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\bin\Debug\net10.0\loops.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\loops.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\loops.AssemblyInfoInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\loops.AssemblyInfo.cs
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\loops.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\loops.sourcelink.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\loops.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\refint\loops.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\loops.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\loops.genruntimeconfig.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\loops\obj\Debug\net10.0\ref\loops.dll
