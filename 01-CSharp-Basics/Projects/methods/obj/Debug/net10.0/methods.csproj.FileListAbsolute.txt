@@ -1,0 +1,15 @@
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\bin\Debug\net10.0\methods.exe
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\bin\Debug\net10.0\methods.deps.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\bin\Debug\net10.0\methods.runtimeconfig.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\bin\Debug\net10.0\methods.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\bin\Debug\net10.0\methods.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\methods.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\methods.AssemblyInfoInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\methods.AssemblyInfo.cs
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\methods.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\methods.sourcelink.json
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\methods.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\refint\methods.dll
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\methods.pdb
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\methods.genruntimeconfig.cache
+D:\Haile\Balina\c-sharp-learning-path\01-CSharp-Basics\Projects\methods\obj\Debug\net10.0\ref\methods.dll
