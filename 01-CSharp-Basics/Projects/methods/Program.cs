@@ -99,7 +99,7 @@ class Program
     // IN PARAMETER
     static void DisplayAverage(in double avg)
     {
-        Console.WriteLine($"\nAverage (read-only using 'in'): {avg}");
+        Console.WriteLine($"\nAverage (read-only using 'in'): {avg +}");
     }
 
     // METHOD OVERLOADING
