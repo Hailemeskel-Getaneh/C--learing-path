@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\DevHaile\\projects\\C#-learning\\C--learing-path\\02-OOP\\Projects\\BankingSystem\\BankingSystem.csproj": {}
+    "D:\\Haile\\Balina\\c-sharp-learning-path\\02-OOP\\Projects\\BankingSystem\\BankingSystem.csproj": {}
   },
   "projects": {
-    "c:\\Users\\DevHaile\\projects\\C#-learning\\C--learing-path\\02-OOP\\Projects\\BankingSystem\\BankingSystem.csproj": {
+    "D:\\Haile\\Balina\\c-sharp-learning-path\\02-OOP\\Projects\\BankingSystem\\BankingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\DevHaile\\projects\\C#-learning\\C--learing-path\\02-OOP\\Projects\\BankingSystem\\BankingSystem.csproj",
+        "projectUniqueName": "D:\\Haile\\Balina\\c-sharp-learning-path\\02-OOP\\Projects\\BankingSystem\\BankingSystem.csproj",
         "projectName": "BankingSystem",
-        "projectPath": "c:\\Users\\DevHaile\\projects\\C#-learning\\C--learing-path\\02-OOP\\Projects\\BankingSystem\\BankingSystem.csproj",
-        "packagesPath": "C:\\Users\\DevHaile\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\DevHaile\\projects\\C#-learning\\C--learing-path\\02-OOP\\Projects\\BankingSystem\\obj\\",
+        "projectPath": "D:\\Haile\\Balina\\c-sharp-learning-path\\02-OOP\\Projects\\BankingSystem\\BankingSystem.csproj",
+        "packagesPath": "C:\\Users\\programmer\\.nuget\\packages\\",
+        "outputPath": "D:\\Haile\\Balina\\c-sharp-learning-path\\02-OOP\\Projects\\BankingSystem\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DevHaile\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\programmer\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

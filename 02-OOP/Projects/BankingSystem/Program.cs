@@ -1,120 +1,104 @@
 ﻿using System;
-using System.Collections.Generic;
 
-// Banking System — Practice project for OOP concepts
-// Covers: classes, inheritance, encapsulation, interfaces
-
-// --- Interface: defines the contract all accounts must follow ---
-interface IAccount
+// base Class : encapsulates shared data and logic 
+abstract class BankAccount 
 {
-    string AccountNumber { get; }
-    decimal Balance { get; }
-    void Deposit(decimal amount);
-    bool Withdraw(decimal amount);
-    void PrintSummary();
-}
+    public string AccountNumber { get; protected set; }
+    public string Owner { get; protected set; }
+    public decimal Balance { get; protected set; }
 
-// --- Base class: shared logic for all account types ---
-abstract class BankAccount : IAccount
-{
-    public string AccountNumber { get; }
-    public string Owner { get; }
-    private decimal _balance;
-    public decimal Balance => _balance;
-
-    public BankAccount(string accountNumber, string owner, decimal initialBalance)
+    public BankAccount(string number, string owner, decimal balance) 
     {
-        AccountNumber = accountNumber;
+        AccountNumber = number;
         Owner = owner;
-        _balance = initialBalance;
+        Balance = balance;
     }
 
-    public virtual void Deposit(decimal amount)
+    // Virtual: Can be overridden by child classes
+    public virtual void Deposit(decimal amount) 
     {
-        if (amount <= 0) { Console.WriteLine("Deposit amount must be positive."); return; }
-        _balance += amount;
-        Console.WriteLine($"Deposited {amount:C}. New balance: {_balance:C}");
+        Balance += amount;
+        Console.WriteLine($"{Owner} deposited {amount:C}. New Balance: {Balance:C}");
     }
 
-    public virtual bool Withdraw(decimal amount)
+    // Virtual method Logic for a standard withdrawal
+    public virtual void Withdraw(decimal amount) 
     {
-        if (amount <= 0) { Console.WriteLine("Amount must be positive."); return false; }
-        if (_balance < amount) { Console.WriteLine("Insufficient funds."); return false; }
-        _balance -= amount;
-        Console.WriteLine($"Withdrew {amount:C}. New balance: {_balance:C}");
-        return true;
+        if (amount <= Balance) {
+            Balance -= amount;
+            Console.WriteLine($"{Owner} withdrew {amount:C}. Remaining: {Balance:C}");
+        } else {
+            Console.WriteLine("Insufficient funds!");
+        }
     }
 
+    // abstract method means every child implement their own version
     public abstract void PrintSummary();
 }
 
-// --- Savings Account: inherits from BankAccount, adds interest logic ---
-class SavingsAccount : BankAccount
+
+class SavingsAccount : BankAccount 
 {
-    public decimal InterestRate { get; }
+    public decimal InterestRate = 0.05m;
 
-    public SavingsAccount(string number, string owner, decimal balance, decimal rate)
-        : base(number, owner, balance)
-    {
-        InterestRate = rate;
-    }
+    public SavingsAccount(string num, string name, decimal bal) : base(num, name, bal) { }
 
-    public void ApplyMonthlyInterest()
+    public void AddInterest() 
     {
         decimal interest = Balance * InterestRate;
         Deposit(interest);
     }
 
-    public override void PrintSummary()
-    {
-        Console.WriteLine($"[Savings] {AccountNumber} | {Owner} | Balance: {Balance:C} | Rate: {InterestRate:P}");
-    }
+    public override void PrintSummary() => 
+        Console.WriteLine($"[Savings] {Owner} | {AccountNumber} | Balance: {Balance:C}");
 }
 
-// --- Checking Account: inherits from BankAccount, charges a fee per withdrawal ---
-class CheckingAccount : BankAccount
+// child class 
+class CheckingAccount : BankAccount 
 {
-    private const decimal WithdrawalFee = 2.00m;
+    private decimal fee = 2.00m;
 
-    public CheckingAccount(string number, string owner, decimal balance)
-        : base(number, owner, balance) { }
+    public CheckingAccount(string num, string name, decimal bal) : base(num, name, bal) { }
 
-    // Overrides base Withdraw to add fee logic
-    public override bool Withdraw(decimal amount)
+    // overridig Withdraw to include a fee
+    public override void Withdraw(decimal amount) 
     {
-        Console.WriteLine($"Note: A {WithdrawalFee:C} withdrawal fee applies.");
-        return base.Withdraw(amount + WithdrawalFee);
+        Console.WriteLine($"Applying {fee:C} fee...");
+        base.Withdraw(amount + fee); 
     }
 
-    public override void PrintSummary()
-    {
-        Console.WriteLine($"[Checking] {AccountNumber} | {Owner} | Balance: {Balance:C}");
-    }
+    public override void PrintSummary() => 
+        Console.WriteLine($"[Checking] {Owner} | {AccountNumber} | Balance: {Balance:C}");
 }
 
-// --- Main program ---
-class Program
+// main program
+class Program 
 {
-    static void Main()
+    static void Main() 
     {
-        var accounts = new List<BankAccount>
+
+        BankAccount[] accounts = new BankAccount[2];
+        accounts[0] = new SavingsAccount("S101", "Hailemeskel ", 1000);
+        accounts[1] = new CheckingAccount("C202", "Esayas", 500);
+
+
+        Console.WriteLine("--- Account Status ---");
+        foreach (BankAccount acc in accounts) 
         {
-            new SavingsAccount("SAV-001", "Haile", 2000m, 0.04m),
-            new CheckingAccount("CHK-002", "Meskel", 800m)
-        };
+            acc.PrintSummary();
 
-        Console.WriteLine("=== Current Accounts ===");
-        foreach (var acc in accounts) acc.PrintSummary();
+        }
 
-        Console.WriteLine("\n=== Transactions ===");
-        accounts[0].Withdraw(300);
-        accounts[1].Withdraw(300);   // checking account charges a fee
+        Console.WriteLine("\n--- Processing Transactions ---");
+        accounts[0].Deposit(200); // Standard deposit
+        accounts[1].Withdraw(100); // Checking withdrawal (with fee)
 
-        Console.WriteLine("\n=== Applying Monthly Interest to Savings ===");
-        if (accounts[0] is SavingsAccount savings)
-            savings.ApplyMonthlyInterest();
+        // Downcasting: Accessing child-specific methods
+        if (accounts[0] is SavingsAccount sa) {
+            sa.AddInterest();
+        }
 
-        Console.WriteLine("\n=== Updated Accounts ===");
-        foreach (var acc in accounts) acc.PrintSummary();
+        Console.WriteLine("\n--- Final Status ---");
+        foreach (BankAccount acc in accounts) acc.PrintSummary();
     }
 }
