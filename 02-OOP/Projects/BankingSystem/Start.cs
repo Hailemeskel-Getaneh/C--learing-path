@@ -72,7 +72,7 @@ class CheckingAccount : BankAccount
 }
 
 // main program
-class Program 
+class Start 
 {
     static void Main() 
     {
@@ -80,7 +80,6 @@ class Program
         BankAccount[] accounts = new BankAccount[2];
         accounts[0] = new SavingsAccount("S101", "Hailemeskel ", 1000);
         accounts[1] = new CheckingAccount("C202", "Esayas", 500);
-
 
         Console.WriteLine("--- Account Status ---");
         foreach (BankAccount acc in accounts) 
