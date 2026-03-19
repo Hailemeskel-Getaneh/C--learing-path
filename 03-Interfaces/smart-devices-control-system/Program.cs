@@ -1,70 +1,95 @@
 ﻿using System;
 
-// Here is the interface, sort of like a contract for all devices
-interface ISmartDevice
-{
-    string Name { get; }
+interface ISmartDevice {
+
+    string Name {get;}
     void TurnOn();
     void TurnOff();
     void ShowStatus();
+
 }
 
-// creating the first device, a smart light
-class SmartLight : ISmartDevice
-{
-    public string Name { get; private set; }
+class SmartLight :ISmartDevice {
+
+   public string Name {get; private set;}
+   private bool isOn;
+
+   public SmartLight(string name) => Name = name;
+
+   public void TurnOn(){isOn = true;}
+   public void TurnOff(){isOn = true;}
+   
+   public void ShowStatus(){
+    Console.WriteLine($"{Name} Light is {(isOn ? "On": "Off")}");
+   }
+
+
+
+}
+
+class SmartTV : ISmartDevice {
+
+    public string Name{get; private set;}
     private bool isOn;
+    private int channelNumber = 1;
 
-    public SmartLight(string name) => Name = name;
 
-    public void TurnOn() { isOn = true; }
-    public void TurnOff() { isOn = false; }
+    public SmartTV(string name) => Name = name;
 
-    public void ShowStatus() =>
-        Console.WriteLine($"{Name} Light is {(isOn ? "ON" : "OFF")}");
+    public void TurnOn(){isOn = true;}
+    public void TurnOff(){isOn = false;}
+    public void ShowStatus(){
+        Console.WriteLine($"{Name} TV is {(isOn ? "On." : "Off.")} ");
+    }
+
+       // slef method
+
+   public void changeChannel(int channel){
+
+        if(isOn){
+            channelNumber = channel;
+           Console.WriteLine($"The Tv is on Channel {channelNumber}");
+        }
+         else{
+            Console.WriteLine("The TV is off. Can't change the channel");
+         }
+   }
 }
 
-// let's making another one, maybe a fan is good here
-class SmartFan : ISmartDevice
-{
-    public string Name { get; private set; }
-    private bool isOn;
+class Program {
 
-    public SmartFan(string name) => Name = name;
+    public static void Main(){
 
-    public void TurnOn() { isOn = true; }
-    public void TurnOff() { isOn = false; }
-
-    public void ShowStatus() =>
-        Console.WriteLine($"{Name} Fan is {(isOn ? "ON" : "OFF")}");
-}
-
-// TODO:SmartTV or Thermostat later
-
-// testing the devices in the main program
-class Program
-{
-    static void Main()
-    {
-        ISmartDevice[] devices = new ISmartDevice[2]; 
+        ISmartDevice[] devices = new ISmartDevice[2];
         devices[0] = new SmartLight("Living Room");
-        devices[1] = new SmartFan("Bedroom");
-        // devices[2] = new SmartThermostat("Hallway", 22); // I'll do this one later
+        devices[1] = new SmartTV("Sallon");
 
-        Console.WriteLine("--- Initial Status ---");
-        foreach (ISmartDevice device in devices)
-            device.ShowStatus();
+        // Show initial state of the devices
+        Console.WriteLine("=== Initial Status of Devices ===");
+        foreach(ISmartDevice device in devices)
+                device.ShowStatus();
+        
+        // Change the status of the devices
+        foreach(ISmartDevice device in devices)
+                device.TurnOn();
+        
+        // show final state of the devices
+        Console.WriteLine("=== After changing the status ===");
+        foreach(ISmartDevice device in devices)
+                device.ShowStatus();
 
-        Console.WriteLine("\n--- Turning Devices On ---");
-        foreach (ISmartDevice device in devices)
-            device.TurnOn();
+        // change tv channel using downcasting or pattern matching
+        foreach(ISmartDevice device in devices){
+        
+        //let's make the devices off
+         device.TurnOff();
+          if(device is SmartTV tv){
 
-        foreach (ISmartDevice device in devices)
-            device.ShowStatus();
+                Console.WriteLine("Enter the channel number: ");
+                int channel = int.Parse(Console.ReadLine());
+                 tv.changeChannel(channel);
+             }
+        }
 
-        // checking final status to see if it works
-        Console.WriteLine("\n--- Final Status ---");
-        foreach (ISmartDevice device in devices)
-            device.ShowStatus();
     }
 }

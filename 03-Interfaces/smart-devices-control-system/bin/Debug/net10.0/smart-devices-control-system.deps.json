@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "smart-devices-control-system/1.0.0": {
+        "runtime": {
+          "smart-devices-control-system.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "smart-devices-control-system/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

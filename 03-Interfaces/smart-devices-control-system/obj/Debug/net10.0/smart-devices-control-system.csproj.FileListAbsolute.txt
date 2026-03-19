@@ -1,0 +1,15 @@
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\smart-devices-control-system.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\smart-devices-control-system.AssemblyInfoInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\smart-devices-control-system.AssemblyInfo.cs
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\smart-devices-control-system.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\smart-devices-control-system.sourcelink.json
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\bin\Debug\net10.0\smart-devices-control-system.exe
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\bin\Debug\net10.0\smart-devices-control-system.deps.json
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\bin\Debug\net10.0\smart-devices-control-system.runtimeconfig.json
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\bin\Debug\net10.0\smart-devices-control-system.dll
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\bin\Debug\net10.0\smart-devices-control-system.pdb
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\smart-devices-control-system.dll
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\refint\smart-devices-control-system.dll
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\smart-devices-control-system.pdb
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\smart-devices-control-system.genruntimeconfig.cache
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\smart-devices-control-system\obj\Debug\net10.0\ref\smart-devices-control-system.dll
