@@ -1,29 +1,45 @@
 namespace Examples;
 
-public class GenericMethodExample
-{
-    public static void Run()
-    {
-        Console.WriteLine("--- Generic Method Example ---");
+public class GenericMethodExample{
 
-        int a = 5, b = 10;
-        Console.WriteLine($"Before Swap: a = {a}, b = {b}");
-        Swap(ref a, ref b);
-        Console.WriteLine($"After Swap:  a = {a}, b = {b}");
+        public static void Run(){
 
-        string s1 = "World", s2 = "Hello";
-        Console.WriteLine($"Before Swap: s1 = {s1}, s2 = {s2}");
-        Swap(ref s1, ref s2);
-        Console.WriteLine($"After Swap:  s1 = {s1}, s2 = {s2}");
+            Console.WriteLine("=== Swapping ( Generic Method ) ");
 
-        Console.WriteLine();
-    }
+            int num1 = 5 , num2 = 7;
+            string str1 = "Hello";
+            string str2 = "World";
 
-    // A generic method to swap two values
-    public static void Swap<T>(ref T lhs, ref T rhs)
-    {
-        T temp = lhs;
-        lhs = rhs;
-        rhs = temp;
-    }
+ // swaping integer
+            Console.WriteLine("Before Swapping Integers");
+            Console.WriteLine($"First Number: {num1} and Second Number: {num2}");
+
+            swap(ref num1, ref num2);
+            Console.WriteLine("After Swapping Integers");
+            Console.WriteLine($"First Number: {num1} and Second Number: {num2}");
+
+//swapping strings
+            Console.WriteLine("Before Swapping strings");
+            Console.WriteLine($"First string: {str1} and Second string: {str2}");
+
+            swap(ref str1, ref str2);
+             Console.WriteLine("After Swapping Strings");
+            Console.WriteLine($"First string: {str1} and Second string: {str2}");
+
+
+        }
+
+
+        public static void swap<T>(ref T first, ref T second){
+
+            T temp = first;
+            first = second;
+            second = temp;
+        }
+
+
+
+
+
+
 }

@@ -9,7 +9,8 @@ This is a focused, two-week plan to get through the fundamentals and write real 
 **Day 1–2: Setup and Orientation**
 - Install .NET SDK and VS Code
 - Get comfortable with the terminal and `dotnet` commands
-- Create and run a first console project
+- Understand [Solutions](./00-Setup/solutions.md) and [Project Structure](./00-Setup/namespaces-projects-assemblies.md)
+- Explore Project Templates: [Console](./00-Setup/consoleapp.md), [Class Library](./00-Setup/classlib.md), [Web API](./00-Setup/webapi.md), [Unit Tests](./00-Setup/unittests.md)
 
 **Day 3–4: C# Basics**
 - Variables and data types

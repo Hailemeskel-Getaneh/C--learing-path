@@ -1,17 +1,9 @@
-﻿using System;
+﻿using models;
 
-interface ISmartDevice {
-
-    string Name {get;}
-    void TurnOn();
-    void TurnOff();
-    void ShowStatus();
-
-}
 
 class SmartLight :ISmartDevice {
 
-   public string Name {get; private set;}
+   public string Name { get; private set;}
    private bool isOn;
 
    public SmartLight(string name) => Name = name;
@@ -23,7 +15,11 @@ class SmartLight :ISmartDevice {
     Console.WriteLine($"{Name} Light is {(isOn ? "On": "Off")}");
    }
 
+  public void showScreen(ISmartDevice device){
 
+      
+       
+  }
 
 }
 

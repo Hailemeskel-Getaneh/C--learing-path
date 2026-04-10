@@ -1,28 +1,25 @@
 namespace Examples;
 
-public class GenericClassExample
-{
-    public static void Run()
-    {
-        Console.WriteLine("--- Generic Class Example ---");
 
-        // Create a Box for integers
+public class Box<T>{
+
+    public T? content;
+}
+
+
+public class GenericClassExample{
+
+    public static void Run(){
+
+        Console.WriteLine("=== This is Generic class example ===");
+
         Box<int> intBox = new Box<int>();
-        intBox.Content = 123;
-        Console.WriteLine($"Integer Box content: {intBox.Content}");
+        intBox.content = 123;
+        Console.WriteLine($"This is integer content {intBox.content}");
 
-        // Create a Box for strings
         Box<string> stringBox = new Box<string>();
-        stringBox.Content = "Hello Generics";
-        Console.WriteLine($"String Box content: {stringBox.Content}");
-
-        Console.WriteLine();
+        stringBox.content = "Hello from generics";
+        Console.WriteLine($"This is string content {stringBox}");
     }
 }
 
-// here is a simple generic class
-
-public class Box<T>
-{
-    public T? Content { get; set; }
-}

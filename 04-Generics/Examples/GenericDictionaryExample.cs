@@ -1,28 +1,30 @@
 namespace Examples;
 
-public class GenericDictionaryExample
-{
-    public static void Run()
-    {
-        Console.WriteLine("--- Generic Dictionary<TKey, TValue> Example ---");
+public class GenericDictionaryExample{
 
-        // Dictionary mapping ID (int) to Name (string)
+    public static void Run(){
+        
+        Console.WriteLine("=== Generic Dictionary<TKey, TValue> example ====");
+
         Dictionary<int, string> employeeNames = new Dictionary<int, string>();
-        employeeNames.Add(101, "John Doe");
-        employeeNames.Add(102, "Jane Smith");
-        employeeNames.Add(103, "Bob Johnson");
+    
+        // add values to the dictionary
+        employeeNames.Add(1, "Hailemeskel");
+        employeeNames.Add(2, "Selamawit Girma");
+        employeeNames[3] = "Dagnachew";
 
-        Console.WriteLine("Employees:");
-        foreach (var entry in employeeNames)
-        {
-            Console.WriteLine($"ID: {entry.Key}, Name: {entry.Value}");
+        // loop through the dict and display values
+
+        foreach(var (id, name) in employeeNames ){
+            Console.WriteLine($"Id:{id}, Name {name}");
         }
 
-        if (employeeNames.TryGetValue(102, out string? name))
-        {
-            Console.WriteLine($"Found Employee 102: {name}");
-        }
+        //try a safe getting value with an index
 
+        if(employeeNames.TryGetValue(2, out string? name)){
+            Console.WriteLine($"Found Employee: {name}");
+        }
         Console.WriteLine();
+
     }
 }

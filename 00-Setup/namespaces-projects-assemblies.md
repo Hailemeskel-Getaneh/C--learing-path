@@ -1,5 +1,4 @@
-# 🧠 Namespaces vs. Projects vs. Assemblies — COMPLETE MASTER NOTE
-
+# 🧠 Namespaces vs. Projects vs. Assemblies 
 ---
 
 ## 📌 1. The Big Picture

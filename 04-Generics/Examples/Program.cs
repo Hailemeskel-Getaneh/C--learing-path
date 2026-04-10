@@ -29,7 +29,7 @@ while (true)
             GenericConstraintsExample.Run();
             break;
         case "4":
-            GenericListExample.abc();
+            GenericListExample.Run();
             break;
         case "5":
             GenericDictionaryExample.Run();

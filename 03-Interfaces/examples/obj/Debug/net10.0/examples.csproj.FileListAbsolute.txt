@@ -1,0 +1,15 @@
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\examples.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\examples.AssemblyInfoInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\examples.AssemblyInfo.cs
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\examples.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\examples.sourcelink.json
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\bin\Debug\net10.0\examples.exe
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\bin\Debug\net10.0\examples.deps.json
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\bin\Debug\net10.0\examples.runtimeconfig.json
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\bin\Debug\net10.0\examples.dll
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\bin\Debug\net10.0\examples.pdb
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\examples.dll
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\refint\examples.dll
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\examples.pdb
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\examples.genruntimeconfig.cache
+D:\Haile\Balina\c-sharp-learning-path\03-Interfaces\examples\obj\Debug\net10.0\ref\examples.dll
