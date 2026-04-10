@@ -13,7 +13,7 @@ while (true)
     Console.WriteLine("8. Generic HashSet<T> Example");
     Console.WriteLine("9. Custom Sample Example (User Created)");
     Console.WriteLine("0. Exit");
-    Console.Write("\nEnter choice: ");
+    Console.WriteLine("\nEnter choice: ");
 
     string? choice = Console.ReadLine();
 

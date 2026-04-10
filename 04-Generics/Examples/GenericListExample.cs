@@ -30,7 +30,7 @@ public class GenericListExample{
         }
 
         // find Element
-        string found = names.Find(n => n.StartsWith("A"));
+        string? found = names.Find(n => n.StartsWith("A"));
         Console.WriteLine($"Found: {found}");
 
         //Check existence of an element

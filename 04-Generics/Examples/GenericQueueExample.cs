@@ -1,24 +1,31 @@
 namespace Examples;
 
-public class GenericQueueExample
-{
-    public static void Run()
-    {
-        Console.WriteLine("--- Generic Queue<T> Example (FIFO) ---");
 
-        Queue<string> printQueue = new Queue<string>();
-        printQueue.Enqueue("Document1.pdf");
-        printQueue.Enqueue("Image.png");
-        printQueue.Enqueue("Report.docx");
+public class GenericQueueExample {
 
-        Console.WriteLine($"Current Queue Count: {printQueue.Count}");
+    public static void Run(){
 
-        while (printQueue.Count > 0)
-        {
-            string document = printQueue.Dequeue();
-            Console.WriteLine($"Processing: {document}");
+        Console.WriteLine("=== Queue (FIFO) ====");
+
+        Queue<string> tasks = new Queue<string>();
+
+        tasks.Enqueue("Studying");
+        tasks.Enqueue("Praying");
+        tasks.Enqueue("Eating");
+        tasks.Enqueue("Sleeping");
+
+
+        Console.WriteLine($"There are {tasks.Count} tasks");
+
+        foreach( string task in tasks){
+            Console.WriteLine(task);
         }
 
-        Console.WriteLine();
+       Console.WriteLine($"Removing the first task {tasks.Dequeue()}") ;
+
+       Console.WriteLine($"Now, the first task is {tasks.Peek()}");
+
+       Console.WriteLine($"The task list contains Coding ? {tasks.Contains("Coding")}");
+
     }
 }

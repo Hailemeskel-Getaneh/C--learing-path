@@ -16,13 +16,13 @@ public class GenericDictionaryExample{
         // loop through the dict and display values
 
         foreach(var (id, name) in employeeNames ){
-            Console.WriteLine($"Id:{id}, Name {name}");
+            Console.WriteLine($"Id:{id}, Name: {name}");
         }
 
         //try a safe getting value with an index
 
-        if(employeeNames.TryGetValue(2, out string? name)){
-            Console.WriteLine($"Found Employee: {name}");
+        if(employeeNames.TryGetValue(2, out string? employeeName)){
+            Console.WriteLine($"Found Employee: {employeeName}");
         }
         Console.WriteLine();
 
