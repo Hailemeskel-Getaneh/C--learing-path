@@ -302,6 +302,7 @@ Think of async as:
 
 ---
 
+
 ## 🔹 17. Another Important Behavior
 
 ```csharp
@@ -325,6 +326,7 @@ Outside
 End
 ```
 
+
 💡 Why?
 
 - Method pauses at `await`
@@ -332,6 +334,7 @@ End
 - Outer code continues
 
 ---
+
 
 ## 🔹 18. Async and Thread
 
@@ -352,7 +355,7 @@ Important clarification:
 
 ---
 
-## 🔹 20. Summary of Part 1
+## 🔹 20. some points to remember
 
 - `async` enables asynchronous behavior
 - `await` pauses without blocking
@@ -820,8 +823,7 @@ Now extend it:
 
 ---
 
-## 🔹 40. Summary of Part 2
-
+## 🔹 40. Summary 
 - Async methods return control early
 - Execution resumes after `await`
 - Order of execution is non-linear
@@ -831,16 +833,3 @@ Now extend it:
 
 ---
 
-## 🔜 Next (PART 3 — Final)
-
-Next part will cover:
-
-- Advanced flow understanding
-- Edge cases
-- Real-world patterns
-- Deep mental models
-- Interview & exam-level insights
-
----
-
-Just say **“next”** and I’ll finish it with Part 3.
