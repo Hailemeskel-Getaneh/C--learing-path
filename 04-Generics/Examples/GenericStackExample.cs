@@ -1,24 +1,30 @@
 namespace Examples;
 
-public class GenericStackExample
-{
-    public static void Run()
-    {
-        Console.WriteLine("--- Generic Stack<T> Example (LIFO) ---");
 
-        Stack<string> browserHistory = new Stack<string>();
-        browserHistory.Push("google.com");
-        browserHistory.Push("github.com");
-        browserHistory.Push("stackoverflow.com");
+public class GenericStackExample{
 
-        Console.WriteLine($"Current Top: {browserHistory.Peek()}");
+    public static void Run(){
 
-        while (browserHistory.Count > 0)
-        {
-            string page = browserHistory.Pop();
-            Console.WriteLine($"Going back from: {page}");
+        Console.WriteLine("=== Generic Stack Example ===");
+
+        Stack<string> tools = new Stack<string>();
+
+
+        // add items at the top 
+
+        tools.Push("Hammer");
+        tools.Push("Wrench");
+        tools.Push("Level");
+        tools.Push("Mallet");
+
+        foreach(string tool in tools ){
+            Console.WriteLine(tool);
         }
 
-        Console.WriteLine();
+        Console.WriteLine($"The top of the tools is  {tools.Peek()}");
+
+        Console.WriteLine($"There are {tools.Count} tools.");
+
+        Console.WriteLine($"Tool Removed from the top  is {tools.Pop()}");
     }
 }
