@@ -1,0 +1,15 @@
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\GenericInventoryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\GenericInventoryApp.AssemblyInfoInputs.cache
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\GenericInventoryApp.AssemblyInfo.cs
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\GenericInventoryApp.csproj.CoreCompileInputs.cache
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\GenericInventoryApp.sourcelink.json
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\bin\Debug\net10.0\GenericInventoryApp.exe
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\bin\Debug\net10.0\GenericInventoryApp.deps.json
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\bin\Debug\net10.0\GenericInventoryApp.runtimeconfig.json
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\bin\Debug\net10.0\GenericInventoryApp.dll
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\bin\Debug\net10.0\GenericInventoryApp.pdb
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\GenericInventoryApp.dll
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\refint\GenericInventoryApp.dll
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\GenericInventoryApp.pdb
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\GenericInventoryApp.genruntimeconfig.cache
+C:\Users\DevHaile\projects\C#-learning\C--learing-path\04-Generics\project\GenericInventoryApp\obj\Debug\net10.0\ref\GenericInventoryApp.dll
