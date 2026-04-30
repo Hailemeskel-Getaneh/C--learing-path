@@ -1,0 +1,14 @@
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\obj\Debug\net10.0\02-POCOClasses.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\obj\Debug\net10.0\02-POCOClasses.AssemblyInfoInputs.cache
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\obj\Debug\net10.0\02-POCOClasses.AssemblyInfo.cs
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\obj\Debug\net10.0\02-POCOClasses.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\bin\Debug\net10.0\02-POCOClasses.exe
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\bin\Debug\net10.0\02-POCOClasses.deps.json
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\bin\Debug\net10.0\02-POCOClasses.runtimeconfig.json
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\bin\Debug\net10.0\02-POCOClasses.dll
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\bin\Debug\net10.0\02-POCOClasses.pdb
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\obj\Debug\net10.0\02-POCOClasses.dll
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\obj\Debug\net10.0\refint\02-POCOClasses.dll
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\obj\Debug\net10.0\02-POCOClasses.pdb
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\obj\Debug\net10.0\02-POCOClasses.genruntimeconfig.cache
+D:\Haile\Balina\.NET Course\EFCoreMastery\02-POCOClasses\obj\Debug\net10.0\ref\02-POCOClasses.dll

@@ -1,0 +1,14 @@
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\bin\Debug\net10.0\01DomainModelingFoundations.exe
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\bin\Debug\net10.0\01DomainModelingFoundations.deps.json
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\bin\Debug\net10.0\01DomainModelingFoundations.runtimeconfig.json
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\bin\Debug\net10.0\01DomainModelingFoundations.dll
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\bin\Debug\net10.0\01DomainModelingFoundations.pdb
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\obj\Debug\net10.0\01DomainModelingFoundations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\obj\Debug\net10.0\01DomainModelingFoundations.AssemblyInfoInputs.cache
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\obj\Debug\net10.0\01DomainModelingFoundations.AssemblyInfo.cs
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\obj\Debug\net10.0\01DomainModelingFoundations.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\obj\Debug\net10.0\01DomainModelingFoundations.dll
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\obj\Debug\net10.0\refint\01DomainModelingFoundations.dll
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\obj\Debug\net10.0\01DomainModelingFoundations.pdb
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\obj\Debug\net10.0\01DomainModelingFoundations.genruntimeconfig.cache
+D:\Haile\Balina\.NET Course\EFCoreMastery\01DomainModelingFoundations\obj\Debug\net10.0\ref\01DomainModelingFoundations.dll
