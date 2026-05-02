@@ -1,6 +1,5 @@
 ﻿using MyApp.Basic;
 using MyApp.Properties;
-
 // 1. Using Basic POCO (Fields)
 var item = new Product();
 item.Id = 101;
@@ -11,7 +10,7 @@ item.Price = 89.99m;
 var emp = new Employee
 {
     Id = 1,
-    FullName = "Jane Doe",
+    FullName = "Hailemeskel Getaneh",
     Salary = 55000m
 };
 
@@ -24,3 +23,4 @@ try {
 } catch (Exception ex) {
     Console.WriteLine($"[Validation] Error: {ex.Message}");
 }
+

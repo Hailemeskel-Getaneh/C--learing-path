@@ -9,6 +9,7 @@ namespace MyApp.Properties
 
         // Property with logic (Encapsulation)
         private decimal _salary;
+        
         public decimal Salary
         {
             get => _salary;
