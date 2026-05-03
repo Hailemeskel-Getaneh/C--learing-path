@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EfCoreTrackingDemo.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260502085715_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260503091625_initialMigration")]
+    partial class initialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

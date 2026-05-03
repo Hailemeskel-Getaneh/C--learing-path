@@ -4,7 +4,8 @@ namespace EfCoreTrackingDemo.Models{
         public int Id {get; set;}
         public string Name {get; set;} = string.Empty;
 
-        // new column to test migration
-        public decimal Price {get; set;}
+        // add another property to test migration again
+        public decimal Price { get; set;}
+
     }
 }

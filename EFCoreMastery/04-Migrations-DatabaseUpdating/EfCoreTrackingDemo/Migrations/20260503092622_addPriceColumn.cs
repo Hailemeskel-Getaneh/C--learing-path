@@ -5,7 +5,7 @@
 namespace EfCoreTrackingDemo.Migrations
 {
     /// <inheritdoc />
-    public partial class AddPrice : Migration
+    public partial class addPriceColumn : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

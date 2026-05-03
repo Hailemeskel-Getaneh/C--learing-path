@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EfCoreTrackingDemo.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260502092545_AddPrice")]
-    partial class AddPrice
+    [Migration("20260503092622_addPriceColumn")]
+    partial class addPriceColumn
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
