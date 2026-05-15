@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ProductSupplier.ConsoleApp/ProductSupplier.ConsoleApp.csproj" />
+  <Project Path="ProductSupplier.Domain/ProductSupplier.Domain.csproj" />
+  <Project Path="ProductSupplier.Infrastructure/ProductSupplier.Infrastructure.csproj" />
+</Solution>

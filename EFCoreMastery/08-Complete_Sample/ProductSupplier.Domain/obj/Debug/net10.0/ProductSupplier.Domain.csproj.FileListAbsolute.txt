@@ -1,0 +1,12 @@
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\obj\Debug\net10.0\ProductSupplier.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\obj\Debug\net10.0\ProductSupplier.Domain.AssemblyInfoInputs.cache
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\obj\Debug\net10.0\ProductSupplier.Domain.AssemblyInfo.cs
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\obj\Debug\net10.0\ProductSupplier.Domain.csproj.CoreCompileInputs.cache
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\obj\Debug\net10.0\ProductSupplier.Domain.sourcelink.json
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\bin\Debug\net10.0\ProductSupplier.Domain.deps.json
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\bin\Debug\net10.0\ProductSupplier.Domain.dll
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\bin\Debug\net10.0\ProductSupplier.Domain.pdb
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\obj\Debug\net10.0\ProductSupplier.Domain.dll
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\obj\Debug\net10.0\refint\ProductSupplier.Domain.dll
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\obj\Debug\net10.0\ProductSupplier.Domain.pdb
+D:\Haile\Balina\.NET Course\EFCoreMastery\08-Complete_Sample\ProductSupplier.Domain\obj\Debug\net10.0\ref\ProductSupplier.Domain.dll
