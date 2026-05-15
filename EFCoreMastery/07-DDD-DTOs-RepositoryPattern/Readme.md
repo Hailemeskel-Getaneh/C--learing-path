@@ -1,0 +1,1 @@
+This Project focuses on practicing Reporsitory Pattern , DTOs and Domain Deriven Design(DDD).

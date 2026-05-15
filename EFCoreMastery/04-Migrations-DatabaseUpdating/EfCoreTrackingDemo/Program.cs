@@ -3,99 +3,92 @@ using EfCoreTrackingDemo.Data;
 using EfCoreTrackingDemo.Services;
 using EfCoreTrackingDemo.Models;
 
-
 using (var context = new AppDbContext())
 {
-     // apply migrations to database automatically
-     context.Database.Migrate();
+    // Apply migrations to database automatically
+    context.Database.Migrate();
 
-     var service = new ProductService(context);
+    var service = new ProductService(context);
 
-     //seed intitial data
-     if(!context.Products.Any()){
-
+    // Seed initial data
+    if (!context.Products.Any())
+    {
         context.Products.AddRange(
-            new Product { Name = "Printer" , Price = 200m},
-            new Product {Name = "Monitor", Price = 340m}
+            new Product { Name = "Printer", Price = 200m },
+            new Product { Name = "Monitor", Price = 340m }
         );
         context.SaveChanges();
         Console.WriteLine("Seeding Successful");
-     }
-     else{
-        Console.WriteLine("Database already contians data. Skeeping seed ...");
-     }
+    }
+    else
+    {
+        Console.WriteLine("Database already contains data. Skipping seed...");
+    }
 
-      void Menu(){
+    bool running = true;
+    while (running)
+    {
+        string choice = Menu();
 
-        Console.WriteLine("=== Menu ===");
-        Console.WriteLine("1. Create product");
-        Console.WriteLine("2. View products");
-        Console.WriteLine("3. Update Product");
-        Console.WriteLine("4. Delete Product");
-        Console.WriteLine("5. Exit");
-
-
-     }
-
-     bool running = true;
-
-     while(running){
-
-        Menu();
-
-        Console.Write("Enter your choice:");
-         var choice = Console.ReadLine();
-
-        switch(choice){
-
+        switch (choice)
+        {
             case "1":
-            {
-                    Console.Write("Enter name of the Product:");
-                    string? name = Console.ReadLine() ;
+                Console.Write("Enter name of the Product: ");
+                string? name1 = Console.ReadLine();
+                Console.Write("Enter the Price: ");
+                if (decimal.TryParse(Console.ReadLine(), out decimal price1))
+                {
+                    service.CreateProduct(name1, price1);
+                }
+                break;
 
-                    Console.Write("Enter the Price:");
-                    decimal price = decimal.Parse(Console.ReadLine() ?? "0");
-                    service.CreateProduct(name, price);
-                    break;
-            }
             case "2":
-                    service.ViewProducts();
-                    break;
-            
+                Console.Write("Product Count: ");
+                service.CountProducts(); 
+                service.ViewProducts();
+                break;
+
             case "3":
-            {
-                    Console.Write("Enter Product Id:");
-                    int id = int.Parse(Console.ReadLine()!);
+                Console.Write("Enter Product Id: ");
+                if (int.TryParse(Console.ReadLine(), out int id3))
+                {
+                    Console.Write("Enter product Name: ");
+                    string? name3 = Console.ReadLine();
+                    Console.Write("Enter Price: ");
+                    if (decimal.TryParse(Console.ReadLine(), out decimal price3))
+                    {
+                        service.UpdateProduct(id3, name3, price3);
+                    }
+                }
+                break;
 
-                    Console.Write("Enter product Name:");
-                    string? name = Console.ReadLine();
-
-                    Console.Write("Enter Price:");
-                    decimal price = int.Parse(Console.ReadLine()!);
-
-                    service.UpdateProduct(id, name, price);
-                    break;
-            }
             case "4":
-            {
-                    Console.WriteLine("Enter Id to delete");
-                    int id = int.Parse(Console.ReadLine()!);
+                Console.Write("Enter Id to delete: ");
+                if (int.TryParse(Console.ReadLine(), out int id4))
+                {
+                    service.DeleteProduct(id4);
+                }
+                break;
 
-                    service.DeleteProduct(id);
-                    break;
-            }
             case "5":
-                    running = false;
-                    break;
+                running = false;
+                break;
+
             default:
-                    Console.WriteLine("Invalid choice");
-                    break;
+                Console.WriteLine("Invalid choice");
+                break;
+        }
+    }
+}
 
-
-
-
-        }      
-
-   }
-
+string Menu()
+{
+    Console.WriteLine("\n=== Menu ===");
+    Console.WriteLine("1. Create product");
+    Console.WriteLine("2. View products");
+    Console.WriteLine("3. Update Product");
+    Console.WriteLine("4. Delete Product");
+    Console.WriteLine("5. Exit");
+    Console.WriteLine("Enter your choice: ");
+    return Console.ReadLine() ?? "";
 }

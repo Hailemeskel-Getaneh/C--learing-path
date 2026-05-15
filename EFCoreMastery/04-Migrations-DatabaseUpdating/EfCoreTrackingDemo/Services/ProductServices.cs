@@ -13,6 +13,8 @@ namespace EfCoreTrackingDemo.Services{
             _context = context;
         }
 
+
+
         public void CreateProduct(string? name, decimal price){
 
             var product= new Product {
@@ -68,6 +70,15 @@ namespace EfCoreTrackingDemo.Services{
              _context.SaveChanges();
              Console.WriteLine("Product deleted successfully");
             }
+
+        public void  CountProducts(){
+
+            int count = _context.Products.Count();
+            Console.WriteLine(count) ;
+            
+
+
+        }
 
             
 
