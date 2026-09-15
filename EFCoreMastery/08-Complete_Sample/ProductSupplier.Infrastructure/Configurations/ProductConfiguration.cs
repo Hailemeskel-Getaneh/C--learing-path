@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using ProductSupplier.Domain.Entities;
 
-
 namespace ProductSupplier.Infrastructure.Configurations{
 
     public class ProductConfiguration : IEntityTypeConfiguration<Product> {
@@ -16,6 +15,7 @@ namespace ProductSupplier.Infrastructure.Configurations{
             builder.Property(p => p.Name)
                 .IsRequired()
                 .HasMaxLength(100);
+                
 
      // for sqlite
            builder.Property(p => p.Price)

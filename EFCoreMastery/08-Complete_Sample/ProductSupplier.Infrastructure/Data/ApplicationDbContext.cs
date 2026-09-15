@@ -1,3 +1,4 @@
+
 using Microsoft.EntityFrameworkCore;
 using ProductSupplier.Domain.Common;
 using ProductSupplier.Domain.Entities;
@@ -22,7 +23,6 @@ public class ApplicationDbContext : DbContext
             typeof(ApplicationDbContext).Assembly);
     }
   
-  
   public override async Task<int> SaveChangesAsync( CancellationToken cancellationToken = default)
     {
         foreach (var entry in ChangeTracker.Entries<BaseEntity>())
@@ -37,6 +37,8 @@ public class ApplicationDbContext : DbContext
                 entry.Property(e => e.CreatedAt).CurrentValue = DateTime.UtcNow;
             }
         }
+
+        
 
         return await base.SaveChangesAsync(cancellationToken);
     }

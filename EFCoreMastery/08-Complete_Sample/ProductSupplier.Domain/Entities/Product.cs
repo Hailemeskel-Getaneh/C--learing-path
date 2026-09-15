@@ -7,10 +7,8 @@ namespace ProductSupplier.Domain.Entities {
         public string Name {get; private set;} = string.Empty;
         public decimal Price {get; private set;}
         public int QuantityInStock {get; private set;}
-        
         // Foreing key
         public int SupplierId {get; private set;}
-
         // Navigation property
         public Supplier Supplier {get; private set;} = null!;
 
